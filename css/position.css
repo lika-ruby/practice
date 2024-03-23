@@ -1,0 +1,25 @@
+body {
+  position: relative;
+}
+
+.container {
+  position: relative;
+}
+
+.test-list {
+  background-color: yellow;
+  margin: 0 auto;
+}
+
+.test-item {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+
+.test-item:nth-child(2) {
+  bottom: 50%;
+  right: 50px;
+  background-color: red;
+  position: fixed;
+}
